@@ -1,0 +1,64 @@
+{
+    "display": "form",
+    "settings": {
+        "pdf": {
+            "id": "1ec0f8ee-6685-5d98-a847-26f67b67d6f0",
+            "src": "https://files.form.io/pdf/5692b91fd1028f01000407e3/file/1ec0f8ee-6685-5d98-a847-26f67b67d6f0"
+        }
+    },
+    "components": [
+        {
+            "label": "User Name",
+            "placeholder": "Enter user name",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "validateWhenHidden": false,
+            "key": "userName",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Password",
+            "placeholder": "Enter password",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "validateWhenHidden": false,
+            "key": "password",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "First Name",
+            "placeholder": "Enter first name",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "validate": {
+                "required": true
+            },
+            "validateWhenHidden": false,
+            "key": "firstName",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Last Name",
+            "placeholder": "Enter last name",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "validateWhenHidden": false,
+            "key": "lastName",
+            "type": "textfield",
+            "input": true
+        },
+        {
+            "label": "Mobile",
+            "placeholder": "Enter mobile",
+            "applyMaskOn": "change",
+            "tableView": true,
+            "validateWhenHidden": false,
+            "key": "mobile",
+            "type": "textfield",
+            "input": true
+        }
+    ]
+}
